@@ -1,6 +1,6 @@
 # Sistema di Face Detection per una fotocamera digitale
 
-![selfie_oscar](https://github.com/user-attachments/assets/ba9e5cb1-8073-4a31-90b9-065e277ea243)
+![selfie_oscar](https://github.com/VirginioC/face-detection-fotocamera-digitale/blob/main/selfie_oscar.png)
 
 ## Descrizione e obiettivi del progetto
 Questo progetto è stato realizzato durante il Master in Data Science di Profession AI utilizzando il linguaggio **Python** e l'ambiente **Google Colab**. L'azienda fittizia ProCam S.p.A. sta sviluppando una nuova fotocamera digitale compatta, pensata per i giovani appassionati di fotografia. L'obiettivo del progetto è implementare un sistema di rilevamento volti per ottimizzare le impostazioni della fotocamera durante i selfie. Il dataset non viene fornito, deve essere quindi cercato in rete o costruito.
