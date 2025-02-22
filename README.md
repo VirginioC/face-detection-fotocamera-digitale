@@ -3,7 +3,7 @@
 ![selfie_oscar](https://github.com/VirginioC/face-detection-fotocamera-digitale/blob/main/selfie_oscar.png)
 
 ## Descrizione e obiettivi del progetto
-Questo progetto è stato realizzato durante il Master in Data Science di Profession AI utilizzando il linguaggio **Python** e l'ambiente **Google Colab**. L'azienda fittizia ProCam S.p.A. sta sviluppando una nuova fotocamera digitale compatta, pensata per i giovani appassionati di fotografia. L'obiettivo del progetto è implementare un sistema di rilevamento volti per ottimizzare le impostazioni della fotocamera durante i selfie. Il dataset non viene fornito, deve essere quindi cercato in rete o costruito.
+Questo progetto è stato realizzato durante il Master in Data Science di ProfessionAI utilizzando il linguaggio **Python** e l'ambiente **Google Colab**. L'azienda fittizia ProCam S.p.A. sta sviluppando una nuova fotocamera digitale compatta, pensata per i giovani appassionati di fotografia. L'obiettivo del progetto è implementare un sistema di rilevamento volti per ottimizzare le impostazioni della fotocamera durante i selfie. Il dataset non viene fornito, deve essere quindi cercato in rete o costruito.
 
 Il sistema dovrà:
 - Identificare i volti nelle immagini.
@@ -31,7 +31,7 @@ os.environ['KAGGLE_KEY'] = kaggle_creds['KAGGLE_KEY']
 ## Fasi principali del progetto
 1. Costruzione del dataset:
    -  Preprocessing dei due dataset:
-      - Ridimensionamento di tutte le immagini a 64x64 pixel (dimensione adatta per Face Detection).
+      - Ridimensionamento di tutte le immagini a 64x64 pixel (dimensione adatta per la Face Detection).
       - Conversione in scala di grigi (alleggerimento del carico computazionale).
       - Selezione random di 20966 immagini nel dataset di non volti per bilanciare il numero dei volti.
    - Unione in un **unico dataset** costituito da **41932 immagini di volti e non volti**.
@@ -51,7 +51,7 @@ os.environ['KAGGLE_KEY'] = kaggle_creds['KAGGLE_KEY']
 
 4. Test del prototipo di Face Detection su immagini varie:
    - Viene creata la funzione `face_detection` che racchiude tutte le precedenti operazioni per il riconoscimento volti prendendo come unico input il percorso dell'immagine da esaminare.
-   - Si testa il prototipo su immagini con differenti caratteristiche per verificare la bontà del sistema in diverse situazioni: una sola persona, due o tre persone, gruppi di persone, immagini in scala di grigi, dimensioni in pixels e formati differenti.
+   - Si testa il prototipo su immagini con differenti caratteristiche per verificare la bontà del sistema in diverse situazioni: una sola persona, due o tre persone, gruppi di persone, immagini in scala di grigi, dimensioni in pixel e formati differenti.
 
 ## Tecnologie utilizzate
 - **Linguaggio**: Python
